@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?4dmv1g');
+  src:  url('../fonts/icomoon.eot?4dmv1g#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?4dmv1g') format('truetype'),
+    url('../fonts/icomoon.woff?4dmv1g') format('woff'),
+    url('../fonts/icomoon.svg?4dmv1g#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yourDestinyLogo:before {
+  content: "\e903";
+  font-size: 50px;
+}
+.icon-mcLogo:before {
+  content: "\e900";
+}
+.icon-ufkLogo:before {
+  content: "\e901";
+}
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-soundcloud2:before {
+  content: "\eac4";
+}

@@ -1,0 +1,166 @@
+body{
+    background-color: #eeeeee;
+    font-size: 20px;
+    color: #393e46;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*MENU*/
+.menuNav{
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    font-size: 22px;
+}
+
+/*GRIND MENU*/
+.grid-nav {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/*GRIND MUSIC*/
+.grid-music {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/*GRID CONTENIDO*/
+.itemRight { grid-area: right; }
+.itemMain { grid-area: main; }
+.itemFooter { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'main main main main right right'
+    'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #eeeeee;
+    padding: 33px;
+    }
+
+.grid-container > div {
+    background-color: #eeeeee;
+    text-align: justify;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.grid-container > footer {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/*ESTILOS GENERALES*/
+a{
+    text-decoration: none;
+}
+
+.aIcons{
+    text-decoration: none;
+    list-style: none;
+    color: #393e46;
+}
+ul.aIcons li{
+    display: inline;
+}
+.aIcons:hover{
+    color: #FFD369;
+}
+
+
+.lisMenu{
+    list-style: none;
+}
+ul.lisMenu li{
+    display: inline;
+}
+ul.lisMenu li a{
+    color: #222831;
+}
+ul.lisMenu li a:hover{
+    color: #FFD369;
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.fontTajawal{
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*FORMULARIO*/
+form{
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input{
+    width: 341px;
+    height: 25px;
+    border-radius: 4px;
+}
+textarea{
+    width: 343px;
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 343px;
+    max-width: 343px;
+    border-radius: 4px;
+}
+.btnContact{
+    width: 350px;
+    height: 35px;
+    background-color: #393e46;
+    color: #FFD369;
+    border-radius: 4px;
+}
+.btnContact:hover{
+    background-color: #FFD369;
+    color: #eeeeee;
+}
+
+/*ICONS*/
+.iconContainer{
+    list-style: none;
+    text-align: center;
+}
+ul.iconContainer li{
+    display: inline;
+}
+
+/*LOGOS EDITABLES*/
+.ukfIcon{
+    font-size: 200px;
+    padding-right: 41px;
+}
+.mcIcon{
+    font-size: 200px;
+    padding-right: 19px;
+}
+
+/*TABLA EXPONENTES*/
+.expTable{
+    text-align: center;
+    align-items: center;
+}
+.expTable tr td{
+    font-size: 25px;
+}
+.expTable tr td{
+    padding: 50px;
+}
+audio::-webkit-media-controls-enclosure {
+    background-color: #393e46;
+}
